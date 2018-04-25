@@ -1,0 +1,84 @@
+
+
+.pokraska .bg{
+	background: url(../img/background.jpg) center;
+}
+
+
+#pokraskaTypes .items .item{
+	flex-basis: 40%;
+}
+
+#pokraskaTypes .items .item img {
+	width: 250px;
+	height: 250px;
+	padding: 0;
+	border-radius: 50%;
+}
+		
+#pokraskaTypes .items .item p{
+		margin:0% 2.5%;	
+}
+
+
+/* P R I C E - - - TABLE*/
+
+#pricePokraska .items table{
+	margin: 2.5% auto;
+	border-collapse: collapse;
+}
+	#pricePokraska .items table td:nth-child(3) {
+	    background: #61d128;
+	    text-align: center;
+	    color: #fff;
+	    border-bottom-color: white;
+	   } 
+
+	#pricePokraska .items table tr:last-child td{
+		border-bottom:none;
+
+	}
+	#pricePokraska .items table tr td{
+		padding:5px 20px;
+		border-bottom:2px solid #cbcbcb;
+	}
+
+	#pricePokraska .about{
+		font-size: 14px;
+	    color: #898989;
+	}
+
+	#pricePokraska a{
+		text-align: center;
+	    display: block;
+	    color: #ff0000;
+	    padding: 5px;
+	    width: 30%;
+	    margin: 2.5% auto;
+	}
+	#pricePokraska a:hover{
+		color: white;
+		background: #ff0404;
+	    border-radius: 15px;
+	}
+
+    
+#pokraskaStages img{
+	width: 100%;
+    padding: 0;
+}
+
+#pokraskaDefence img{
+	width: 64px;
+    padding: 0;
+}
+
+#pokraskaMaterials img{
+	width: 60%;
+    padding: 0;
+}
+
+#pokraskaThing img{
+	width: 100%;
+    padding: 0;
+}
