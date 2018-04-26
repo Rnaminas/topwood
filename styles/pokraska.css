@@ -70,15 +70,18 @@
 
 #pokraskaDefence img{
 	width: 64px;
-    padding: 0;
+	padding: 0;
 }
 
 #pokraskaMaterials img{
 	width: 60%;
-    padding: 0;
+	padding: 0;
 }
 
+#pokraskaMaterials .h-2{
+	font-size: 30px;
+}
 #pokraskaThing img{
 	width: 100%;
-    padding: 0;
+	padding: 0;
 }
