@@ -1,0 +1,551 @@
+
+
+@media screen and (max-width:600px){
+
+h1{
+	font-size: 120%;
+}
+h2{
+	font-size: 100%;
+    color: grey;
+}
+section .h-2{
+	margin: 0% 0% 1% 0%;
+	font-size: 130%;
+}
+section .h-4{
+	margin: 0% 0 2% 0%;
+	font-size: 100%;
+}
+section p{
+	font-size: 90%;
+	margin-bottom: 2.5%;
+}
+
+header .menu{
+	flex-direction:column;
+	padding: 0%;
+	position: fixed;
+	width: 100%;
+	background-color:white;
+}
+		header .menu .logo{
+			flex-grow:1;
+			margin:3% 0% 0% 0%;
+			color: black;
+		}
+		header .menu nav .navigation{
+			display: none;
+		}
+/*		header .menu nav .navigation .item{
+			letter-spacing: 0px;
+		}*/
+		header .menu nav  .call .item .phone{
+			letter-spacing: 0px;
+			margin: 2.5% 0%;
+		}
+		header .menu nav  .call .item .phone a{
+			color: #61d128;
+		}
+		header .menu nav  .call .item .phone a:hover{
+			color: white;
+		}
+		header .menu nav .call .item .grafic{
+			display: none;
+		}
+		header .menu nav .call .item  button{
+			height:30px;
+			margin-left:2%;
+			width:100%;
+			font-size: 110%;
+		}
+header .main{
+	padding: 0% 5%;
+	flex-direction:column;
+}
+		header .main .description{
+			flex-grow:1;
+			margin: 40% 5% 0% 5%;
+    		width: 90%;
+		}
+		header .main .description .h-2{
+			line-height:1;
+			font-size: 180%;
+			margin:10% 0%;
+		}
+		header .main .description p{
+			line-height: 1.2;
+			font-size: 90%;
+    		text-align: left;
+		}
+		header .main .description ul a{
+			margin-left:5%;
+			width: 90%;
+		}
+		header .main .description ul a img{
+			margin-right: 2%;
+			width:5%;
+		}
+		header .main .description ul li{
+			font-size:75%;
+		}
+		header .main .description .fakty{
+		    flex-wrap: wrap;
+		    margin:0;
+		    flex-basis: 100%;
+		}
+		header .main .description .fakty .item{
+			border: none;
+			margin:0;
+			width: 100%;
+		}
+		header .main .description .fakty .item .textNumv{
+			padding: 5% 0% 0% 2.5%;
+			width: 100%;
+			font-size: 90%;
+		}
+		header .main .description .fakty .item .numer{
+			font-size: 200%;
+			text-align: left;
+		}
+
+		header .main .forma{
+			/*width: 70%;
+			padding: 3%;*/
+			margin: 5% 0%;
+		}
+		header .main .forma p{
+			font-size: 110%;
+		}
+
+		header .main form input::-webkit-input-placeholder{
+			font-size: 14px;
+		}
+
+		header .main form .buton{
+			font-size: 110%;
+		}
+
+
+
+section .items .item{
+	flex-basis: 80%;
+}
+		
+section .items .item img{
+	padding: 0;
+	width: 25%;
+}
+section .items .item p{
+	margin: 0;
+}
+
+
+#galery .items .item {
+	flex-basis: 40%;
+}
+
+#galery .switch{
+	display: none;
+}
+#pokraskaStages .items .item{
+	flex-basis: 100%;
+}
+
+#pokraskaStages .items .item p{
+	display: none;
+}
+#pokraskaMaterials .h-2 {
+	font-size: 130%;
+}
+
+#pokraskaThing .items .item{
+	flex-basis: 40%;
+}
+#list .items{
+	margin-top: 5%;
+}
+#list .items .item{
+	flex-basis: 80%;
+	padding:0;
+	margin:0;
+}
+#list .items .item img{
+    padding: 2.5%;
+}
+
+
+#service {
+	flex-wrap:wrap;
+}
+
+#service .item{
+	flex-basis: 100%;
+	margin: 5% 2.5% 0% 0%;
+	/*flex-grow:1;
+	padding: 10% 0%;
+	margin: 2.5%;*/
+}
+#service p{
+
+font-size: 12px;
+    color: #9b9b9b;
+}
+
+#service .h-2{
+    margin: 2.5% 0% 2.5% 0%;
+    font-size: 25px;
+}
+#service .item .backImage {
+	margin:0% 40%;
+}
+
+#service .item h3{
+	margin: 2.5% 0 2.5% 0%;
+}
+#service .item p{
+	margin:0% 2.5% 10% 2.5%;
+	font-size: 14px;
+}
+
+
+
+
+
+/* How W E W O RK*/
+
+#stages .item{
+/*	text-align:center;
+	flex-grow:1;
+	box-shadow: 0px 6px 20px 2px #6d6d6d29;*/
+	flex-basis: 100%;
+	padding: 5% 2.5%;
+	margin: 2.5%;
+    border-radius: 10px;
+/*	padding: 2.5% 0%;
+    margin: 2.5% 1%;
+	border-radius:10px;
+	align-items: center;
+	position: relative;*/
+}
+#stages .item .numb{
+	text-align:left;
+	margin-left: 10%;
+	font-size: 20px;
+	position: absolute;
+}
+#stages .item img{
+	width: 70px;
+    padding: 5%;
+}
+
+#stages .item p{
+	font-size: 14px;
+	margin: 5px 10px 0px 10px;
+	line-height:1.2;
+	color: #898989;
+}
+#stages .item .button{
+	padding: 10px 20px;
+	display: inline-block;
+	background-color:#61d128;
+	border-radius:30px;
+	font-weight:700;
+	color:white;
+	margin-bottom: 5px;
+}
+#stages .item .button:hover{
+	background-color:#39900c;
+}
+#stages .item .tel{
+	color:#61d128;
+	display: inline-block;
+	margin-top: 5px;
+	font-weight:700;
+	font-size: 20px;
+}
+#stages .item .tel:hover{
+	color:#39900c;
+}
+
+
+/* н й н л о ю м х х */
+#about {
+	padding: 5% 5%;
+	background-color: #ededed;
+}
+
+
+#about p{
+	text-align: left;
+	margin:2.5% 0%;
+	font-size: 90%;
+}
+#about .h-2{
+	color:black;
+	font-size: 35px;
+	font-weight:700;
+	margin: 0% 0% 1% 0%;
+	text-align:left;
+}
+#about .items{
+	flex-direction: column;
+}
+
+#about .whiteImage{
+    width: 70%;
+    height: 300px;
+}
+
+#about .item{
+	text-align: center;
+    flex-grow: 1;
+    width: 100%;
+    /* flex-basis: 20%; */
+    padding: 2.5% 0%;
+    margin: 2.5% 1%;
+    /* border-radius: 3px; */
+    /* align-items: stretch; */
+    /* position: relative; */
+	/*position: relative;*/
+}
+#about .item .numb{
+	text-align:left;
+	margin-left: 10%;
+	font-size: 20px;
+	position: absolute;
+}
+#about .item img{
+	width: 100%;
+    top: 10px;
+    left: 10px;
+    box-shadow: 10px 10px 20px 1px #6d6d6da1;
+}
+
+
+
+
+
+
+}
+
+#about .item .green{
+	font-size: 16px;
+    margin: 5% 0% 5% 0%;
+    line-height: 1.2;
+    border-top: 2px solid #61d128;
+    padding: 5% 0%;
+    color: #353535;
+  /*  width: 30%;*/
+   /* border-radius: 10px;*/
+    /*background-color: #61d128;*/
+    text-align: left;
+   /* font-weight: bold;*/
+    /*z-index: 20;
+    position: absolute;*/
+/*    top: 350px;*/
+    font-style: italic;
+}
+
+#about .bold{
+	font-weight: bold;
+}
+
+#about .director{
+	font-size: 14px;
+	margin: 5px 10px 0px 10px;
+	line-height:1.2;
+	color: #898989;
+	text-align: left;
+}
+
+
+#reviews .reviewItem .backImage img {
+    width: 30%;
+}
+#reviews .reviewItem p {
+    font-size: 90%;
+    margin: 2.5% 10%;
+    padding: 5%;
+    line-height: 1;
+}  
+
+
+#reviews .reviewItem .lquote {
+    top: -5%;
+    left: -5%;
+    width: 15%;
+}
+#reviews .reviewItem .rquote {
+    bottom: -5%;
+    right: -5%;;
+    width: 15%;
+}
+#reviews .buttonNext {
+    top: 60%;
+    left: 95%;
+}
+
+#reviews .buttonNext img {
+    width: 30px;
+}    
+
+
+#reviews .buttonBack {
+    top: 60%;
+    left: -5%;
+}
+
+#reviews .buttonBack img {
+    width: 30px;
+} 
+#seotext .items{
+	flex-direction: column;
+}
+#seotext .item p{
+	font-size: 70%;
+	text-align: left;
+}
+
+#seotext .item ol, ul{
+	font-size: 70%;
+	text-align: left;
+}
+
+
+
+/* й н м р ю й р ш */
+#contact{
+	padding:2.5% 0% 0% 0%;
+	height: 100%;
+	color:white;
+	display: flex;
+	flex-wrap:wrap;
+	/*background-color: #61d128;*/
+}
+#contact .item{
+	flex-grow:1;
+	padding: 5%;
+    background-color: #61d128;
+}
+#contact .item2{
+/*	flex-grow:3;*/
+}
+
+#contact .item2 iframe{
+	width: 100%;
+	height: 100%;
+}
+#contact .h-2
+{
+	color:black;
+	font-size: 35px;
+	font-weight:700;
+	margin: 0% 0% 15% 0%;
+	text-align:left;
+}
+
+#contact p{
+	margin:5% 0%;
+}
+#contact .item .text{
+	color: black;
+}
+
+
+#contact a{
+/*	padding:5% 10%*/;
+	color:white;
+
+}
+#contact a:hover{
+	color: black;
+}
+
+
+/* акнй - тсреп */
+footer{
+	height: 100%;
+    font-size: 14px;
+    background-color: #161616;
+ /*   display: flex;*/
+  /*  flex-wrap: wrap;*/
+  /*  width: 100%;*/
+    flex-direction: column;
+    padding: 2.5% 1%;
+    align-items: center;
+}
+
+footer .item{
+	width: 90%;
+    margin: 1%;
+
+}
+footer div:nth-child(2){
+	display: none;
+}
+footer div:nth-child(3){
+	display: none;
+}
+footer .item .social{
+	padding: 5px 5px 0px 0px;
+	display: inline-block;
+}
+footer .item .submenu{
+	color: #babcbe;
+	line-height: 23px;
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 400;
+
+}
+footer .item .tel{
+	color: white;
+	line-height: 18px;
+	font-size: 18px;
+	font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+footer .item .recall{
+	text-decoration: underline;
+}
+footer .item .recall:hover{
+	text-decoration: none;
+	color:white;
+}
+
+footer .item .fat{
+	color: white;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+footer .item .green{
+	color: #61d128;
+}
+
+footer .item i{
+	margin-right:10px;
+}
+footer .item ul, ol{
+	text-align: center;
+}
+footer .item ul li{
+	list-style: none;
+}
+footer .item ul li a{
+	color:#969ba5;
+}
+
+footer .item ul li a:hover{
+	color: #61d128;
+}
+footer .item:last-child ul li{
+	margin-bottom: 0px;
+}
+
+}
